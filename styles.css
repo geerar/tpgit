@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    font-family: 'MiFuentePersonalizada', sans-serif;
+    color: #343a40;
+}
+
+/* Barra de navegación */
+.custom-navbar {
+    position: relative;
+    background: #208ed8;
+    padding-top: 2.0%;
+    height: 60px;
+    border: none;
+    top: 0;
+    transition: top 0.3s;
+}
+
+/* Estilo normal de los botones */
+.navbar-nav .nav-link {
+    padding: 10px;
+    background-color: #cba5fa;
+    border-color: #6c757d;
+    color: #343a40;
+    transition: background-color 0.3s; /* Agregamos una transición de color */
+}
+
+/* Estilo hover de los botones */
+.navbar-nav .nav-link:hover {
+    background-color: #361b86; /* Color que deseas al pasar el cursor */
+    color: #fff; /* Color de texto al pasar el cursor */
+}
+
+.nav-item {
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.nav-image {
+    height: 60px;
+    padding: 5px;
+}
+
+.navbar-nav {
+    padding: 10px;
+    border-color: #6c757d;
+    color: #343a40;
+}
+
+/* Fuente personalizada */
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('font/Recoleta-Bold.woff') format('woff'),
+         url('font/Recoleta-Bold.woff2') format('woff2'),
+         url('font/Recoleta-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Imágenes y elementos específicos */
+.fabri-image {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.prime-row {
+    display: flex;
+    justify-content: center;
+    background-color: #fffbc4;
+      
+    
+}
+.prime-row2 {
+    display: flex;
+    justify-content: center;
+    background-color: #ffe0e9;
+    
+}
+.prime-row3 {
+    justify-content: center;
+    align-items: center;
+    background-color: #ffadf4;
+    
+}
+.prime-row4 {
+    display: flex;
+    justify-content: center;
+    background-color: #cba5fa;
+    
+    
+}
+
+.img-caja {
+    margin-top: 10px;
+    align-items: center;
+    padding: 60px;
+    width: 15cm;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-font {
+    padding: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.form-group{
+    padding: 2px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.footer-container{
+    display: inline-flexbox;   
+    background: #208ed8;
+    justify-content: center;
+}
+.map-container {
+    border: 4px solid #222121; /* Color y grosor del contorno */
+    border-radius: 10px; /* Radio de los bordes redondos */
+}
+.main-content{
+    display: inline;
+    height: fit-content;
+    width: 100%;
+}
