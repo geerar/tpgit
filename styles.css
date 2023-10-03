@@ -2,6 +2,7 @@
 body {
     font-family: 'MiFuentePersonalizada', sans-serif;
     color: #343a40;
+    background: none;
 }
 
 /* Barra de navegación */
@@ -75,32 +76,23 @@ body {
 }
 
 .prime-row {
-    display: flex;
     justify-content: center;
     background-color: #fffbc4;
-
-
 }
 
 .prime-row2 {
-    display: flex;
     justify-content: center;
     background-color: #ffe0e9;
-
 }
 
 .prime-row3 {
-    justify-content: center;
-    align-items: center;
+    
     background-color: #ffadf4;
-
 }
 
 .prime-row4 {
-    display: flex;
     justify-content: center;
     background-color: #cba5fa;
-
 
 }
 
@@ -136,6 +128,6 @@ body {
 }
 
 .main-content {
-    display: inline;
+    display: inline ;
     
 }
